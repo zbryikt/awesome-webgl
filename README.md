@@ -20,6 +20,11 @@ Curated resources for WebGL / Three.js
  * onom - https://twitter.com/onom
  * samsy - http://lab.samsy.ninja/
 
+### Works
+ * terrain generation - https://codepen.io/marctannous/pen/RNGjmz
+ * smoke effect - https://codepen.io/teolitto/pen/KwOVvL
+ * water shader - https://codepen.io/Khangeldy/pen/pgXNMZ
+
 ### For Your Inspiration
  * https://thebookofshaders.com/
  * http://www.davidcornette.com/glsl/noise.html
@@ -32,6 +37,9 @@ Curated resources for WebGL / Three.js
  * https://medium.com/@gordonnl/fire-and-haze-b4561743b17
  * https://en.wikipedia.org/wiki/Spiral#See_also
  * animating noise - https://blog.demofox.org/2017/10/31/animating-noise-for-integration-over-time/
+ * particle effect experiment - https://particle-love.com/
+ * listicle - 20 exceptional threejs exp - https://www.jotform.com/blog/20-exceptional-three-js-experiments-98740/
+ * Turtletoy: generative art API - https://turtletoy.net/turtle/browse/newest/20
 
 ### Shader Library
  * Library
@@ -39,6 +47,7 @@ Curated resources for WebGL / Three.js
    - noise: https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83
      source: https://github.com/ashima/webgl-noise
      https://gist.github.com/megaton/13f6d8c856e9b02ea369
+   - list of fragment-shaders: http://samsy.ninja/xp/ribbons/shaders/fragment-shaders/
  * Gallery
    - http://glslsandbox.com/
    - https://www.shadertoy.com/
@@ -76,6 +85,7 @@ Curated resources for WebGL / Three.js
  * three.ar.js - https://github.com/google-ar/three.ar.js
  * nodejs style module system for GLSL - https://github.com/glslify/glslify
    - 似乎只能在 build time 跑. runtime 則無法.
+ * glfx.js, has some shaders - https://github.com/evanw/glfx.js
 
  * framework:
    - threejs
@@ -106,3 +116,7 @@ Curated resources for WebGL / Three.js
  * distance function
    - 3D: http://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm
    - 2D: http://www.iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm
+ * speed up convolution: https://stackoverflow.com/questions/12469990/simple-glsl-convolution-shader-is-atrociously-slow
+   1. prevent from dependent texture read
+   2. prevent from for loop
+   3. separable convolution
