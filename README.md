@@ -70,6 +70,8 @@ Curated resources for WebGL / Three.js
    - GLSLWASMGIF - https://johan-nordberg.com/glslwasmgif/
    - http://glslb.in/
    - http://shdr.bkcore.com/
+ * Image File Generation
+   - 3D Text - http://sanprieto.es/coolframer/
 
 ### JS Library:
  * good stuffs
@@ -120,3 +122,6 @@ Curated resources for WebGL / Three.js
    1. prevent from dependent texture read
    2. prevent from for loop
    3. separable convolution
+
+### Tutorial
+ * Raymarching: http://barradeau.com/blog/?p=575
