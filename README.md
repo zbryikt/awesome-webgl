@@ -24,6 +24,7 @@ Curated resources for WebGL / Three.js
  * terrain generation - https://codepen.io/marctannous/pen/RNGjmz
  * smoke effect - https://codepen.io/teolitto/pen/KwOVvL
  * water shader - https://codepen.io/Khangeldy/pen/pgXNMZ
+ * Make Background - https://makebackground.io/
 
 ### For Your Inspiration
  * https://thebookofshaders.com/
@@ -40,7 +41,7 @@ Curated resources for WebGL / Three.js
  * particle effect experiment - https://particle-love.com/
  * listicle - 20 exceptional threejs exp - https://www.jotform.com/blog/20-exceptional-three-js-experiments-98740/
  * Turtletoy: generative art API - https://turtletoy.net/turtle/browse/newest/20
-
+ * The Rise of Shaders, Filters and Effects in Web Projects - https://www.awwwards.com/the-rise-of-shaders-filters-and-effects-in-web-projects.html
 ### Shader Library
  * Library
    - threejs Built-in: https://github.com/mrdoob/three.js/blob/master/src/renderers/shaders/ShaderLib.js
@@ -61,7 +62,10 @@ Curated resources for WebGL / Three.js
    - http://cargocollective.com/Noctuelles/Shader-Gallery
    - https://thebookofshaders.com/examples/
    * https://twitter.com/misaki_mofu/status/849254334046978052
-   - some listed in README of https://github.com/glslify/glslify
+   - glslify - nodejs style package system for GLSL
+     - some listed in README of https://github.com/glslify/glslify
+     - packages in glslify, a curated list - http://stack.gl/packages/
+     - packages in glslify by search - https://www.npmjs.com/search?q=keywords:glslify&page=1&ranking=optimal
 
 ### Tool
  * Online Shader Editor
@@ -112,9 +116,11 @@ Curated resources for WebGL / Three.js
  * efficient gaussian blur
    - http://rastergrid.com/blog/2010/09/efficient-gaussian-blur-with-linear-sampling/
    - http://blog.ivank.net/fastest-gaussian-blur.html
+ * Projectron / image resembling with random 3D Polygon - https://github.com/andyhall/glsl-projectron
 
 ### Algorithms and Mathematics
  * FBM: Fractional Brownian motion - https://en.wikipedia.org/wiki/Fractional_Brownian_motion
+ * Tri-planar Mapping - https://gamedevelopment.tutsplus.com/articles/use-tri-planar-texture-mapping-for-better-terrain--gamedev-13821
  * distance function
    - 3D: http://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm
    - 2D: http://www.iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm
@@ -122,6 +128,18 @@ Curated resources for WebGL / Three.js
    1. prevent from dependent texture read
    2. prevent from for loop
    3. separable convolution
+ * Superformula / Supershape
+   - Explain: https://en.wikipedia.org/wiki/Superformula
+   - GLSL Function: https://github.com/Softwave/glsl-superformula
 
 ### Tutorial
  * Raymarching: http://barradeau.com/blog/?p=575
+ * Playing around with fragment shaders in WebGL - https://blog.mayflower.de/4584-Playing-around-with-pixel-shaders-in-WebGL.html
+ * Basic 2D animation example - https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Basic_2D_animation_example
+ * WebGL Image Processing 
+   - Part 1., https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html
+   - Part 2., https://webglfundamentals.org/webgl/lessons/webgl-image-processing-continued.html
+   - Rendering to a texture - https://webglfundamentals.org/webgl/lessons/webgl-render-to-texture.html
+ * Use Canvas as texture in WebGL - https://stackoverflow.com/questions/22570235/
+ * WebGL Best Practice - https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices
+ * drawing mode details (line, stripe, triangles) - https://www.tutorialspoint.com/webgl/webgl_modes_of_drawing.htm
